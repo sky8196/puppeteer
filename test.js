@@ -59,6 +59,6 @@ const puppeteer = require('puppeteer'); //引入puppeteer库
             fabulous:fabulousArr[i],
         })
     }
-    await console.log(obj);
+    await console.log('完成');
     await browser.close();  //关闭浏览器
 })();
