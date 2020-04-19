@@ -11,8 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "iconv-lite": "^0.5.0",
-    "json-2-csv": "^3.5.9",
     "puppeteer": "^2.0.0"
   }
 }
