@@ -1,7 +1,7 @@
 {
   "name": "puppeteertest",
   "version": "1.0.0",
-  "description": "",
+  "description": "puppeteer test",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "mongodb": "^3.5.6",
     "puppeteer": "^2.0.0"
   }
 }
