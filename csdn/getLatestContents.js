@@ -22,7 +22,7 @@ const fs = require('fs');
                let author = ele.find('.list_userbar .name a').text();
                if (linkArray.indexOf(link) == -1 ) {
                    title = title.replace(/\s*/g,'');
-                   abstract = abstract.replace(/\s*/g,'');
+					
                    author = author.replace(/\s*/g,'');
                    if (title.indexOf('荐') == 0) {
                        title = title.substr(1)
